@@ -123,29 +123,3 @@ HTML5 (semântica, acessibilidade)
 CSS3 (flexbox, media queries, convenção BEM)
 
 JavaScript ES6+ (DOM, eventos, localStorage)
-
-📌 Requisitos atendidos
-
-Lista de tarefas carregada automaticamente na renderização inicial
-
-Inclusão de novas tarefas pelo formulário
-
-Marcação de tarefas como concluídas
-
-Substituição do botão "Concluir" por ícone ✔️
-
-Nome da tarefa riscado ao ser concluída
-
-Contador de tarefas atualizado dinamicamente
-
-Uso de tags semânticas <header>, <main>, <footer>
-
-Responsividade garantida para mobile e desktop
-
-Funcionalidades: carregar, adicionar, concluir e atualizar estados
-
-Boas práticas: código legível, funções coesas, nomes claros, convenção BEM aplicada
-
-👨‍💻 Autor
-
-Projeto desenvolvido para a DNC como parte da avaliação final do módulo de JavaScript.
