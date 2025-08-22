@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Board de Tarefas DNC</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./index.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>Board de tarefas</h1>
+        </header>
+        <section id="create-taskboard-section">
+            <form id="create-taskboard-form">
+                <input type="text" name="description" id="description" aria-label="Nome da tarefa a cadastrar"
+                    placeholder="Nome da tarefa">
+                <input type="text" name="label" id="label" aria-label="Etiqueta da tarefa a cadastrar"
+                    placeholder="Etiqueta">
+                <button type="submit" id="save-task" aria-label="Cadastrar tarefa" class="add-task-btn">+</button>
+            </form>
+        </section>
+        <section>
+            <ul id="taskboard">
+            </ul>
+        </section>
+        <footer id="taskboard-footer">
+            <button onclick="removeDoneTasks()" class="remove-done-tasks-btn">Remover tarefas concluídas</button>
+        </footer>
+    </main>
+</body>
+
+</html>
