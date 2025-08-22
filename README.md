@@ -2,6 +2,8 @@ Board de Tarefas – Projeto DNC
 
 Aplicação simples de lista de tarefas (To-Do) desenvolvida em HTML5, CSS3 e JavaScript puro, seguindo boas práticas de programação, convenção BEM e responsividade mobile-first.
 
+https://gerenciador-de-tarefas-ecru-one.vercel.app/
+
 ✨ Funcionalidades
 
 ✅ Carregamento automático de tarefas salvas no localStorage
